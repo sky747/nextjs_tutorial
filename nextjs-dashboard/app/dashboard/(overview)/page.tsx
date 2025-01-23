@@ -6,6 +6,11 @@ import { RevenueChartSkeleton } from "@/app/ui/skeletons";
 import { LatestInvoicesSkeleton } from "@/app/ui/skeletons";
 import { CardsSkeleton } from "@/app/ui/skeletons";
 import CardWrapper from "@/app/ui/dashboard/cards";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Dashboard Top",
+};
 
 export default async function Page() {
 
